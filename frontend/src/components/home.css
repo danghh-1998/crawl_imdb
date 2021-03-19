@@ -1,0 +1,43 @@
+.logo {
+    float: left;
+    width: 250px;
+    height: 31px;
+    text-align: center;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.3);
+    font-family: 'Averta Bold', sans-serif;
+}
+
+.ant-row-rtl .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+}
+
+.site-layout-background {
+    background: #fff;
+}
+
+.ant-layout-header {
+    padding: 0;
+}
+
+.ant-input-group-wrapper {
+    width: inherit;
+    margin: 24px 200px 0;
+}
+
+.ant-input-search-button {
+    background-color: #0275d8;
+    font-size: 14px;
+}
+
+.ant-input-group input::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.ant-form-item-label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
